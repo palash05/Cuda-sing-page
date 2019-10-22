@@ -1,0 +1,593 @@
+/* header-area style from here */
+
+hr{
+	margin: auto;
+}
+.uk-sticky-fixed{
+	background: rgba(0,0,0,.5)!important;
+}
+@font-face{
+font-family: "kamrul-fonts";
+   src :url('custom-font/MyriadPro-Regular.eot')format('eot'),
+        url('custom-font/MyriadPro-Regular.otf')format('otf'),
+        url('custom-font/MyriadPro-Regular.svg')format('svg'),
+        url('custom-font/MyriadPro-Regular.ttf')format('ttf'),
+        url('custom-font/MyriadPro-Regular.woff')format('woff'),
+        url('custom-font/MyriadPro-Regular.woff2')format('woff2');
+            
+}
+body{
+    font-family: "kamrul-fonts";
+	font-family: 'Titillium Web', sans-serif;
+}
+.header-top{
+	background: #87509c;
+	padding: 40px 0;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.header-top:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.logo-area{
+	width: 30%;
+	float: left;
+}
+.main-menu{
+	width: 70%;
+	float: left;
+}
+.main-menu ul{
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.main-menu ul li{
+	float: left;	
+}
+.main-menu ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.main-menu ul li a{
+	padding: 5px 20px;
+	display: block;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+.main-menu ul li a:hover{
+	background: #643a79;
+	text-decoration: none;
+}
+.main-menu ul li a:hover, .main-menu ul li a.active{
+	background: #643a79;
+}
+.header-bottom{
+	padding: 100px 0;
+	text-align: center;
+}
+.header-bottom h2{
+	color: #f7f3ea;
+	font-size: 30px;
+	line-height: 48px;
+	
+}
+.call-to-action a{
+	background: #eb7d4b;
+	padding: 15px 60px;
+	font-size: 20px;
+	color: #FFF;
+	text-transform: upeercase;
+	display: inline-block;
+	margin-top: 50px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 0px #c86a40;
+	
+}
+
+.call-to-action a:hover{
+	background: #c86a40;
+	text-decoration: none;
+}
+/* services area design here */
+
+.services-area{
+    background: #17c2a4;
+    padding: 50px 0;	
+}
+.services-area .container > h2{
+	color: #fff;
+	margin: 0;
+	padding-top: 50px;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.services-area hr{
+	width: 10%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #14a58c;
+}
+.services-area .container > p{
+	font-size: 18px;
+	color: #e0f7f3;
+	margin: auto;
+	text-align: center;
+	width: 54%;
+}
+.services-box{
+	text-align: center;
+	margin-top: 50px;
+}
+.services-box .box{
+	
+	
+}
+.services-box .box h2{
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.services-box .box p{
+	color: #fff;
+	width: 80%;
+	margin: auto;
+}
+/* services-area design end for here */
+
+/* team-area dign start for here */
+
+.team-area{
+	background: #e7f1f8;
+    padding: 50px 0;	
+}
+.team-area .container > h2{
+	color: #3c4761;
+	margin: 0;
+	padding-top: 50px;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+.team-area hr{
+	width: 8%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #c8d9e5;
+	margin-top: 15px;
+}
+.team-area .container > p{
+	font-size: 18px;
+	color: #3c4761;
+	margin: auto;
+	text-align: center;
+	width: 60%;
+	margin-top: 20px;
+}
+.team-box{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.team-box .box h2{
+	color: #27283d;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+	font-size: 25px;
+}
+.team-box .box h3{
+	color: #79d0ee;
+	font-weight: normal;
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 16px;
+}
+.team-box .box p{
+	color: #808b9d;
+	width: 80%;
+	margin: auto;
+}
+.team-mem{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+.team-mem img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.social-link ul{
+	margin: 20px 0;
+	padding: 0;
+	list-style: none;
+}
+.social-link ul li{
+	display: inline-block;
+}
+.social-link ul li i{
+	font-size: 20px;
+	background: #bdd1df;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+/* skill-area design for here */
+.skill-area{
+	background: #ffffff;
+    padding: 50px 0;	
+}
+.skill-area .container > h2{
+	color: #3c4761;
+	margin: 0;
+	padding-top: 50px;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.skill-area hr{
+	width: 10%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #dfe8ed;
+}
+.skill-area .container > p{
+	font-size: 18px;
+	color: #3c4761;
+	margin: auto;
+	text-align: center;
+	width: 54%;
+}
+.skill-box{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.skill-box .box h2{
+	color: #3c4761;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+
+/* portfolio-area design for here */
+
+.portfolio-area{
+	background: #ffdd99;
+    padding: 50px 0;	
+}
+.portfolio-area .container > h2{
+	color: #393939;
+	margin: 0;
+	padding-top: 50px;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.portfolio-area hr{
+	width: 10%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #e5c37f;
+}
+.portfolio-area .container > p{
+	font-size: 18px;
+	color: #46443f;
+	margin: auto;
+	text-align: center;
+	width: 54%;
+}
+.portfolio-box{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.portfolio-box .box h2{
+	color: #46443f;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 17px;
+}
+.menu ul{
+	margin: 45px 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	
+}
+.menu ul li a{
+	color: #46443f;
+	padding: 5px 25px;
+	background: #ebc985;
+	display: block;
+	border-radius: 5px;
+	font-size: 19px;
+	margin-bottom:20px;
+	margin-left: 20px;
+}
+.menu ul li a:hover{
+	background: #fff;
+}
+.menu ul li a:hover, .menu ul li a.active{
+	background: #fff;
+}
+.protfolio-img{
+	width: 500px;
+	margin: auto;
+}
+.protfolio-img img{
+	width: 100%;
+}
+
+.project a{
+	background: #17c2a4;
+	padding: 15px 60px;
+	font-size: 20px;
+	color: #FFF;
+	text-transform: upeercase;
+	display: inline-block;
+	margin-top: 50px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 0px #14a58c;
+	margin-left: 400px;
+}
+
+.project a:hover{
+	background: #14a58c;
+	text-decoration: none;
+}
+/* portfolio-area design end for here */
+.testimonial-area{
+	background: #d74680;
+    padding: 50px 0;	
+}
+.testimonial-area .container > h2{
+	color: #fff;
+	margin: 10px;
+	padding-top: 50px;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.testimonial-area hr{
+	width: 10%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #b73c6d;
+}
+.testimonial-area .container > p{
+	font-size: 18px;
+	color: #fff;
+	margin: auto;
+	text-align: center;
+	width: 54%;
+	margin-top: 20px;
+}
+.testimonial-box{
+	text-align: center;
+	margin-top: 50px;
+}
+.testimonial-box .box{
+	width: 48%;
+	display: inline-block;
+	padding: 50px 0;
+	
+}
+.testi-img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 50px;
+	overflow: hidden;
+}
+.testi-img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.testi-cont{
+	width: 300px;
+	text-align: left;
+	overflow: hidden;
+}
+.testi-cont q{
+	color: #fff;
+	font-size: 21px;
+	font-weight: normal;
+	font-style: italic;
+}
+.testi-cont h2{
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+.testi-cont h3{
+	color: #f5b593;
+	font-size: 18px;
+	margin-top: 0px;
+}
+/* testimonial-area design end for here */
+/* contact-area design for here */
+.contact-area{
+	background: #3c5499;
+    padding: 50px 0;	
+}
+.contact-area .container > h2{
+	color: #fff;
+	margin: 10px;
+	padding-top: 50px;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 3px;
+}
+.contact-area hr{
+	width: 10%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #273a71;
+}
+.contact-area .container > p{
+	font-size: 18px;
+	color: #fff;
+	margin: auto;
+	text-align: center;
+	width: 70%;
+	margin-top: 20px;
+}
+.login-box{
+	width: 80%;
+	margin: auto;
+}
+.user-name{
+	margin-top: 70px;
+}
+.user-name input{
+	background: #273a71;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	border-radius: 3px;
+	width: 100%;
+}
+.user-name .name-field{
+	width: 49%;
+	float: left;
+	position: relative;
+}
+
+.user-name .email-field{
+	width: 49%;
+	float: right;
+	position: relative;
+}
+.name-field label{
+	color: #FFF;
+	position: absolute;
+	top: 11px;
+	left: 17px;
+}
+.name-field label span{
+	color: red;
+}
+.email-field label{
+	color: #FFF;
+	position: absolute;
+	top: 11px;
+	left: 17px;
+}
+.email-field label span{
+	color: red;
+}
+.login-box textarea{
+	background: #273a71;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin-top: 20px;
+	position: relative;
+}
+.message-fild label{
+	color: #fff;
+	position: absolute;
+	top: 11px;
+	left: 17px;
+}
+.message-fild label span{
+	color: red;
+}
+.call-to-action-cont{
+	text-align: center;
+}
+.call-to-action-cont input{
+	background: #30bae7;
+	padding: 15px 60px;
+	font-size: 20px;
+	color: #FFF;
+	text-transform: upeercase;
+	display: inline-block;
+	margin-top: 50px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 0px #299ec5;
+	border: 1px solid transparent;
+}
+
+.call-to-action-cont input:hover{
+	background: #299ec5;
+}
+/* footer-area design from here */
+.footer-area{
+	background: #344b8e;
+	padding: 40px 0;
+}
+.container {
+	width: 80%;
+	margin: auto;
+}
+.footer-menu ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.footer-menu ul li{
+	display: inline-block;
+}
+.footer-menu ul li a{
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 30px;
+	font-width: bold;
+}
+.footer-menu ul li a:hover{
+	color: #30bae7;
+}
+/* jQuery pluign design */
+
+.pie-title-center {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.pie-value {
+  display: block;
+  position: absolute;
+  font-size: 49px;
+  height: 40px;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -20px;
+  line-height: 40px;
+  color: #3C4761;
+}
+
+
+
